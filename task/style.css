@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.nav-color {
+    background-color: rgb(38, 38, 38);
+}
+i {
+    color: rgb(72, 72, 72);
+    font-size: 2rem;
+    padding: 0.4rem 0.5rem;
+}
+i:hover {
+    color: white;
+    background-color: black;
+}
+main {
+    display: flex;
+}
+.img-1 {
+    display: flex;
+}
+img {
+    margin: 0.9rem;
+
+}
+.img-main {
+    position: relative;
+}
+.img-hover {
+    position: absolute;
+    top: 0rem;
+    color: ghostwhite;
+    
+    padding: 7.1rem 20.2rem;
+    margin: 0.5rem;
+    opacity: 0;
+}
+.img-hover:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.567);
+}
+.img-hover-1 {
+    position: absolute;
+    top: 0rem;
+    color: ghostwhite;
+    
+    padding: 6.1rem 4rem;
+    margin: 0.5rem;
+    opacity: 0;
+}
+.img-hover-1:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.567);
+}
+.left-side {
+    background-color: rgb(50, 49, 49);
+    overflow-y: scroll;
+}
+.img-hover-2 {
+    position: absolute;
+    top: 0rem;
+    color: ghostwhite;
+    
+    padding: 5.2rem 13.9rem;
+    margin: 0.5rem;
+    opacity: 0;
+}
+.img-hover-2:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.567);
+}
+.img-hover-3 {
+    position: absolute;
+    top: 0rem;
+    color: ghostwhite;
+    
+    padding: 7.1rem 11.8rem;
+    margin: 0.5rem;
+    opacity: 0;
+}
+.img-hover-3:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.567);
+}
+.img-hover-4 {
+    position: absolute;
+    top: 0rem;
+    color: ghostwhite;
+    
+    padding: 6.1rem 6.8rem;
+    margin: 0.5rem;
+    opacity: 0;
+}
+.img-hover-4:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.567);
+}
+.end-para {
+    color: white;
+    text-align: center;
+    padding: 2rem 0rem;
+}
+.end-para > a {
+    color: brown;
+    text-decoration: none;
+}
+.right-side {
+    background-color: rgb(38, 38, 38);
+    width: 19.2vw;
+    position: fixed;
+    right: 0rem;
+    height: 100vh;
+}
+.nav-fill {
+    display: block;
+    padding: 10rem 0rem;
+    text-align: right;
+}
+.nav-fill a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    line-height: 3rem;
+    cursor: pointer;
+}
+.nav-fill a:active {
+    color: brown;
+    transition: 0.5s;
+}
+@media (max-width:500px) {
+    .nav-fill h3 {
+        display: none;
+    }
+}
